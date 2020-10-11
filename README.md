@@ -1,0 +1,3 @@
+# This is a REST API for spatial aggregation queries on ElasticSearch
+
+We define and implement functions for building a spatial datawarehouse over data stored in ES. Its main functionality is to give an interface to perform data analysis (aggregations). End users of this tool provide the fact and dimensions in which he is interested in addition to the aggregation function. This tool then builds the query in the ES specific query language, submit it to ES and receive query result. 
